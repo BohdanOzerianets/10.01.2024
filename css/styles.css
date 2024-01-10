@@ -250,8 +250,26 @@ flex-direction: row-reverse;
 
 /* Registration */
 
-.container.reg{
+.container.reg {
+   display: flex;
+   align-items: center;
+   margin-bottom: 0;
+}
+
+.container.reg .section-description{
+    margin: 0;
+}
+
+.reg-nav{
     display: flex;
+    margin-left: 80px;
+}
+.reg-nav .button{
+    min-width: 150px;
+}
+
+.reg-nav > .item + .item{
+    margin-left: 20px;
 }
 
 /* Button */
