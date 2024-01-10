@@ -17,29 +17,29 @@
   <body>
     <!-- Шапка сайта -->
     <header class="page-header">
-      <nav class="container">
+      <nav class="container main-nav">
         <a href="/" class="logo">photo</a>
 
         <ul class="site-nav list">
-          <li>
+          <li class="item">
             <a href="" class="link current">Features</a>
           </li>
-          <li>
+          <li class="item">
             <a href="" class="link">Pricing</a>
           </li>
-          <li>
+          <li class="item">
             <a href="./community.html" class="link">Community</a>
           </li>
-          <li>
+          <li class="item">
             <a href="" class="link">Support</a>
           </li>
         </ul>
 
         <ul class="auth-nav list">
-          <li>
+          <li class="item">
             <a href="" class="button secondary">Log in</a>
           </li>
-          <li>
+          <li class="item">
             <a href="" class="button primary">Register</a>
           </li>
         </ul>
@@ -63,7 +63,7 @@
           </h2>
 
           <ul class="feature-list list">
-            <li>
+            <li class="item">
               <h3 class="title">Sed ut perspiciatis</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum modi cum, cupiditate at tempora ipsa
@@ -71,7 +71,7 @@
               </p>
               <a href="" class="button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Lorem, ipsum dolor.</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repudiandae, neque rem eligendi, voluptate
@@ -79,7 +79,7 @@
               </p>
               <a href="" class="button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Nemo enim ipsam</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae assumenda nobis similique, libero rerum
@@ -87,7 +87,7 @@
               </p>
               <a href="" class="button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Tempor incid</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae deleniti odio debitis, earum minima, ab
@@ -102,48 +102,65 @@
 
       <!-- Примеры работ -->
       <section class="section no-padding">
-        <h2 class="section-title centered">Examples</h2>
+        <div class="container">
+          <h2 class="section-title centered">Examples</h2>
 
-        <ul class="work-list list">
-          <li class="item">
-            <img
-              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fimages%2Ffeelings%2Fbeautiful&psig=AOvVaw2gt7aFdxnYOQRR4hd-ZXjT&ust=1702501872931000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCNCt7vDnioMDFQAAAAAdAAAAABAD"
-              alt="111"
-              width="750"
-            />
-            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, vel possimus. Sunt, eum quos? Sit
-              repellat dolores voluptas corrupti rem?
-            </p>
-          </li>
-          <li class="item">
-            <img
-              src="https://www.google.com/imgres?imgurl=https%3A%2F%2Ficatcare.org%2Fapp%2Fuploads%2F2018%2F07%2FThinking-of-getting-a-cat.png&tbnid=0V922RrJgQc9SM&vet=12ahUKEwj59o3ZzKqDAxXc3QIHHdxVAeUQMygIegQIARBb..i&imgrefurl=https%3A%2F%2Ficatcare.org%2Fadvice%2Fthinking-of-getting-a-cat%2F&docid=5qEHfJOysK_DwM&w=1200&h=600&q=cats&ved=2ahUKEwj59o3ZzKqDAxXc3QIHHdxVAeUQMygIegQIARBb"
-              alt="111"
-              width="750"
-            />
-            <h3>Lorem ipsum dolor sit .</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, vel possimus. Sunt, eum quos? Sit
-              repellat dolores voluptas corrupti rem?
-            </p>
-          </li>
-        </ul>
+          <ul class="work-list list">
+            <li class="item">
+              <img src="./images/photo-1.jpg" alt="111" width="750" />
+              <div class="content">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, vel possimus. Sunt, eum quos?
+                  Sit repellat dolores voluptas corrupti rem?
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="./images/photo-2.jpg" alt="111" width="750" />
+              <div class="content">
+                <h3>Lorem ipsum dolor sit .</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, vel possimus. Sunt, eum quos?
+                  Sit repellat dolores voluptas corrupti rem?
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Клиенты -->
       <section class="section">
         <div class="container">
           <h2 class="section-title centered">You're in good company</h2>
-          <p class="section-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, nisi.</p>
-          <ul class="list">
+          <p class="section-description centered">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, nisi.
+          </p>
+          <ul class="client-list list">
             <li>
-              <a href=""
-                ><img
-                  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fimages%2Ffeelings%2Fbeautiful&psig=AOvVaw2gt7aFdxnYOQRR4hd-ZXjT&ust=1702501872931000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCNCt7vDnioMDFQAAAAAdAAAAABAD"
-                  alt=""
-              /></a>
+              <a href=""><img width="173px" height="73px" src="./images/photo-1.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img width="173px" height="76px" src="./images/photo-1.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img width="173px" height="76px" src="./images/photo-1.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img width="173px" height="76px" src="./images/photo-1.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img width="173px" height="76px" src="./images/photo-1.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img width="173px" height="76px" src="./images/photo-1.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img width="173px" height="76px" src="./images/photo-1.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img width="173px" height="76px" src="./images/photo-1.jpg" alt="" /></a>
             </li>
           </ul>
         </div>
@@ -151,7 +168,7 @@
 
       <!-- Регистрация -->
       <section class="section">
-        <div class="container">
+        <div class="container reg">
           <p class="section-description">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, eveniet cumque maiores alias similique
             asperiores officia quia praesentium provident voluptatem! Temporibus quaerat natus veniam? Sed?
